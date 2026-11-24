@@ -4,7 +4,10 @@ body{margin:0;font-family:'Heebo',system-ui,Arial,sans-serif;color:#0f172a;line-
   background:radial-gradient(1200px 600px at 80% -10%,rgba(59,130,246,.12),transparent 60%),
              radial-gradient(900px 500px at 10% 110%,rgba(15,23,42,.07),transparent 55%),#f8fafc}
 .wrap{max-width:720px;margin:0 auto;padding:40px 20px 56px}
-.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit;margin-bottom:22px}
+.top{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:22px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:inherit}
+.login{background:#0f172a;color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:11px 20px;border-radius:12px;white-space:nowrap;box-shadow:0 4px 10px -2px rgba(15,23,42,.3)}
+.login:hover{background:#1e293b}
 .mark{width:54px;height:54px;border-radius:14px;display:flex;align-items:center;justify-content:center;flex-shrink:0;
   background:linear-gradient(135deg,#3b82f6,#0f172a);box-shadow:0 6px 16px -4px rgba(30,64,175,.4)}
 .brand b{font-size:20px;font-weight:800;display:block;line-height:1.2}
